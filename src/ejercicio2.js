@@ -1,7 +1,11 @@
+import { contador } from "./ejercicio1"
+
 class Contador {
-  // Inserte el código aquí
+  function (valor = 0) {
+     this.valor++
+  }
 }
 
-// Inserte el código aquí
+const instancia = new contador
 
 export { instancia }
